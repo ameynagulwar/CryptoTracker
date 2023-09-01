@@ -1,0 +1,36 @@
+.search-box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1rem 3rem;
+    color: var(--grey);
+    background-color: var(--darkgrey);
+    width: 80%;
+    margin: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3rem;
+    font-size: 1.2rem;
+}
+
+.search-box input{
+    width: 100%;
+    color: var(--grey);
+    background-color: var(--darkgrey);
+    font-size: 1.2rem;
+    font-family: 'Inter';
+    outline: none;
+    border: none;
+}
+
+.search-box input:focus{
+    border: none;
+    outline: none;
+}
+
+@media only screen and (max-width: 800px) {
+    .search-box{
+        display: flex;
+    }
+  }
